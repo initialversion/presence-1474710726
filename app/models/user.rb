@@ -5,4 +5,6 @@ class User < ApplicationRecord
 
   # Validations
 
+  :presence => { :message => "should be present" }
+
 end
